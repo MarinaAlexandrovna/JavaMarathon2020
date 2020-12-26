@@ -8,12 +8,14 @@ public class Task3 {
         System.out.println("Print the number");
         int b = sc.nextInt();
 
+        int t = a + 1;
 
-        for (int i = a; i < b; i++) {
-            while (i % 5 == 0 && i % 10 != 0) {
-                System.out.print(i + " ");
-                i++;
+        while(t < b){
+            if (i % 5 == 0 && i % 10 != 0) {
+                System.out.print(t + " ");
             }
+            t++;
+
         }
     }
 }
