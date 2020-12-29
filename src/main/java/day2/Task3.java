@@ -1,5 +1,7 @@
 package day2;
 
+import java.util.Scanner;
+
 public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,7 +13,7 @@ public class Task3 {
         int t = a + 1;
 
         while(t < b){
-            if (i % 5 == 0 && i % 10 != 0) {
+            if (t % 5 == 0 && t % 10 != 0) {
                 System.out.print(t + " ");
             }
             t++;

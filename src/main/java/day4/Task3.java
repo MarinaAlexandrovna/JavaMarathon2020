@@ -1,5 +1,7 @@
 package day4;
 
+import java.util.Random;
+
 public class Task3 {
     public static void main(String[] args) {
         int[][] myMass = new int[12][8];
