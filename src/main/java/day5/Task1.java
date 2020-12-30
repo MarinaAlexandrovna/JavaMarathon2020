@@ -23,6 +23,7 @@ class Car {
     private int yearOfIssue;
     private String color;
     private String model;
+    int inputYear;
 
     public void setYearOfIssue(int yearOfIssue) {
         this.yearOfIssue = yearOfIssue;
@@ -46,5 +47,16 @@ class Car {
 
     public String getModel() {
         return model;
+    }
+
+    public void info() {
+        System.out.println("Это автомобиль");
+    }
+
+    int result;
+
+    public int yearDifference(int inputYear) {
+        result = yearOfIssue - inputYear;
+        return result;
     }
 }
