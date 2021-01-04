@@ -10,14 +10,6 @@ public class Task1 {
         car1.getModel();
         car1.getColor();
 
-        Car car2 = new Car();
-        car2.setYearOfIssue(2019);
-        car2.setModel("Lada");
-        car2.setColor("Rad");
-        car2.getYearOfIssue();
-        car2.getModel();
-        car2.getColor();
-
 
         System.out.println("Выведем нашу машину на экран");
         System.out.println();
@@ -26,9 +18,6 @@ public class Task1 {
                 + "Год выпуска " + car1.getYearOfIssue() + "." + "\n"
                 + "Цвет " + car1.getColor() + ".");
 
-        System.out.println("Модель машины " + car2.getModel() + "." + "\n"
-                + "Год выпуска " + car2.getYearOfIssue() + "." + "\n"
-                + "Цвет " + car2.getColor() + ".");
     }
 }
 
